@@ -1,0 +1,47 @@
+.newcollections {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 150px;
+    margin-right: auto;
+}
+
+.newcollections h1 {
+    color: #171717;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 20px; /* Reduced margin-top */
+}
+
+.newcollections hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+}
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 30px;
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 800px; /* Added max-height to limit the height of the container */
+}
+
+.item {
+    width: 250px; /* Adjusted width of items */
+    height: 350px; /* Adjusted height of items */
+    margin-bottom: 70px;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images maintain aspect ratio */
+}
